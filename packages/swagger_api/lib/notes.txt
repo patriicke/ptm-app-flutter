@@ -1,0 +1,2 @@
+Code snippet for fixing queryParams mapping:
+.map((p) => '${p.name}=${Uri.encodeQueryComponent(p.value)}');
